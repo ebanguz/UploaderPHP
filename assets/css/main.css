@@ -1,0 +1,109 @@
+html {
+  background: lightblue;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f6f9fe;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.form {
+  width: clamp(12.5rem, 60vw, 31.25rem);
+  padding: 2.5rem;
+  border-radius: 2.5rem;
+  background: white;
+  text-align: center;
+  -webkit-box-shadow: 0px 21px 58px 22px #7590994d;
+          box-shadow: 0px 21px 58px 22px #7590994d;
+}
+
+.form .subtitle {
+  color: #aaa;
+  font-size: 80%;
+}
+
+.form__header .form__title {
+  margin-bottom: 1rem;
+  color: #4a4a4a;
+}
+
+.form__body {
+  border: 2px dashed #86abe9;
+  border-radius: 1.4375rem;
+}
+
+.form__body .form__input-box {
+  padding: 2.5rem 0;
+  border-radius: 1.75rem;
+  background: #fafcfe;
+  color: #919191;
+  cursor: pointer;
+}
+
+.form__body .form__input-box img {
+  width: 2.5rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#files {
+  display: none;
+}
+
+.container {
+  width: clamp(16rem, 90vw, 70rem);
+  margin: 0 auto;
+  position: relative;
+}
+
+.container--pall {
+  padding-top: 3.375rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3.375rem;
+  padding-left: 1.5rem;
+}
+
+.container--py {
+  padding-top: 3.375rem;
+  padding-bottom: 3.375rem;
+}
+
+.container--px {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-dir-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=main.css.map */

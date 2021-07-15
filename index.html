@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./assets/css/main.min.css" />
+		<title>Uploader AJAX</title>
+	</head>
+	<body class="flex flex-jc-c flex-ai-c">
+		<main>
+			<div class="container flex flex-jc-c flex-ai-c">
+				<form class="form" action="uploader.php">
+					<div class="form__header">
+						<h1 class="form__title">Upload your files</h1>
+						<p class="subtitle">Files ...</p>
+					</div>
+					<div class="form__body">
+						<label id="drop_zone" class="form__input-box flex flex-dir-c" for="files">
+							<img src="./images/folder.svg" alt="Folder" />
+							<span class="subtitle">Drop your files</span>
+							<input type="file" name="files" id="files" multiple />
+						</label>
+					</div>
+				</form>
+			</div>
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="./assets/js/app.js"></script>
+	</body>
+</html>
